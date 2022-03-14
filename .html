@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>
+            Hello
+        </title>
+        <style>
+            section{
+               /* border-color: brown yellow; 
+               border-style: double;
+               border-width: 2px; */
+               border: gray 2px dashed;
+            }
+            .c1{
+                background-color: hotpink;
+            }
+            #tr2{
+                background-color: khaki;
+            }
+            #tr3{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body bgcolor="azure">
+        <h1>Hello to HTML!!!!</h1>
+        <section>
+            This is the part1
+            This is line2 but appeating in the same line
+            <br/>
+            We have broken the line here
+        </section>
+        <br>
+
+        <section>
+            This is<font color="red"> the</font> part2
+        </section>
+        <br>
+        <section class="c1">
+            This is the part3
+        </section>
+        <article>
+            This is an article
+        </article>
+        <div class="c1">
+            Divide the page using div
+        </div>
+        <table border="1">
+            <thead>This is the table</thead>
+            <tr><!--Table row-->
+                <th>Si #</th>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Ramu</td>
+                <td>90</td>
+            </tr>
+            <tr id="tr2">
+                <td>102</td>
+                <td>Bimu</td>
+                <td>90</td>
+            </tr>
+            <tr id="tr3">
+                <td>103</td>
+                <td>Somu</td>
+                <td>90</td>
+            </tr>
+        </table>
+        <img src="./resources/images/amazon-2.jpg" height="200" width="200" alt="No picture go go" />
+        <!-- un ordered list -->
+        <ul type="square">
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Milk</li>
+        </ul>
+        <!-- ordered list -->
+        
+        <ol type="I">
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Milk</li>
+        </ol>
+        <video controls  height="200" width="200">
+            <source src="./resources/videos/movie1.mp4" />
+        </video>
+        <audio controls  height="200" width="200">
+            <source src="./resources/audios/music1.mp3" />
+        </audio>
+        <summary class="c1" style="position: absolute;left:30px;top:1000px;"> <!--Inline style-->
+            Click to read more
+            <details>
+               &nbsp; Will remain hidden
+            </details>
+        </summary>
+    </body>
+</html>
